@@ -1,0 +1,15 @@
+{
+  "name": "NovelCool",
+  "id": "novelcool",
+  "lang": "es",
+  "version": 1,
+  "url": "https://es.novelcool.com",
+  "type": "manga",
+  "nsfw": false,
+  "selectors": {
+    "search": ".book-list-item a",
+    "title": ".info .title",
+    "chapters": ".chapter-list li a",
+    "images": ".img-view img"
+  }
+}
